@@ -1,10 +1,10 @@
-	db  79,  83, 100,  78,  85, 105 ; 530 BST
+	db  84,  83, 100,  78,  85, 105 ; 535 BST
 	;   hp  atk  def  spd  sat  sdf
 
 if DEF(FAITHFUL)
 	db WATER, WATER ; type
 else
-	db WATER, STEEL ; type
+	db WATER, WATER ; type
 endc
 	db 45 ; catch rate
 	db 210 ; base exp
