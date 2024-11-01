@@ -3,8 +3,8 @@ TrainerClassDVsAndPersonality:
 	table_width 6, TrainerClassDVsAndPersonality
 	;  EVs  HP   Def  SAt  Ability  Gender
 	;  *    Atk  Spd  SDf  Nature   Form
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; carrie
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; cal
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; carrie
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; cal
 	db 252, $55, $55, $55, ABILITY_1 | QUIRKY, MALE   ; falkner
 	db 252, $66, $66, $66, ABILITY_1 | QUIRKY, MALE   ; bugsy
 	db 252, $77, $77, $77, ABILITY_1 | QUIRKY, FEMALE ; whitney
@@ -13,24 +13,24 @@ TrainerClassDVsAndPersonality:
 	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; jasmine
 	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; pryce
 	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; clair
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; will
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; koga
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; bruno
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; karen
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; champion
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; brock
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; misty
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; lt surge
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; erika
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; janine
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; sabrina
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; blaine
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; blue
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; red
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; leaf
-	db   0, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; rival0
-	db 144, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; rival1
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; rival2
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; will
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; koga
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; bruno
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; karen
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; champion
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; brock
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; misty
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; lt surge
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; erika
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; janine
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; sabrina
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; blaine
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; blue
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; red
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; leaf
+	db   0, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; rival0
+	db 144, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; rival1
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; rival2
 	db   0, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; lyra1
 	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; lyra2
 	db   0, $66, $66, $66, ABILITY_1 | QUIRKY, MALE   ; youngster
@@ -106,46 +106,46 @@ TrainerClassDVsAndPersonality:
 	db  64, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; cooltrainerm
 	db  64, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; cooltrainerf
 	db  72, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; ace duo
-	db 128, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; veteranm
-	db 128, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; veteranf
+	db 128, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; veteranm
+	db 128, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; veteranf
 	db  80, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; proton
 	db  96, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; petrel
 	db 128, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; archer
 	db 112, $DD, $DD, $DD, ABILITY_1 | QUIRKY, FEMALE ; ariana
-	db 160, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; giovanni
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; prof oak
+	db 160, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; giovanni
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; prof oak
 	db 160, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; prof elm
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; prof ivy
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; prof ivy
 	db  88, $DD, $DD, $DD, ABILITY_1 | QUIRKY, MALE   ; mysticalman
-	db  88, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; karate king
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; towertycoon
+	db  88, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; karate king
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; towertycoon
 	db  88, $99, $B8, $99, ABILITY_1 | QUIRKY, MALE   ; jessie&james
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; lorelei
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; agatha
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; steven
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; cynthia
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; inver
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; lorelei
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; agatha
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; steven
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; cynthia
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; inver
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; cheryl
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; riley
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; buck
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; marley
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; mira
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; anabel
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; darach
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; caitlin
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; candela
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; blanche
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; spark
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; flannery
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; maylene
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; skyla
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, FEMALE ; valerie
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; kukui
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; darach
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; caitlin
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; candela
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; blanche
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; spark
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; flannery
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; maylene
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; skyla
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, FEMALE ; valerie
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; kukui
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; victor
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; bill
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; bill
 	db 252, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; yellow
 	db 252, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; walker
 	db 192, $EE, $EE, $EE, ABILITY_1 | QUIRKY, MALE   ; imakuni
-	db 252, $99, $99, $99,   ABILITY_1 | QUIRKY, MALE   ; lawrence
+	db 252, $99, $99, $99, ABILITY_1 | QUIRKY, MALE   ; lawrence
 	db 252, $EE, $EE, $EE, ABILITY_1 | QUIRKY, FEMALE ; rei
 	assert_table_length NUM_TRAINER_CLASSES
